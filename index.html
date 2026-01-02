@@ -107,6 +107,43 @@
         <h3>Por que você está cansado?</h3>
         <p>Não é falta de esforço. É o sistema. Enquanto você pedala/dirige 12h, o algoritmo lucra 400% sobre seu suor. O Marxismo e o Comunismo é a ferramenta para mudarmos isso juntos.</p>
     </div>
+    <div class="formulario">
+	    <section id="contato" style="background-color: #222; padding: 20px; border-radius: 8px; margin-top: 20px; border: 1px dashed var(--vermelho);">
+    <h3 style="color: var(--vermelho); margin-top: 0; text-transform: uppercase;">Aliste-se na Organização</h3>
+    <p style="font-size: 0.85rem; margin-bottom: 15px;">Não lute sozinho. Deixe seus dados para ser contatado por um organizador da sua zona.</p>
+
+    <form action="https://formspree.io/f/seu-id-aqui" method="POST" style="display: flex; flex-direction: column;">
+
+        <label style="font-size: 0.8rem; margin-bottom: 5px;">Como podemos te chamar? (Pode ser codinome)</label>
+        <input type="text" name="nome" placeholder="Ex: Faísca" required style="padding: 10px; margin-bottom: 15px; border-radius: 4px; border: none;">
+
+        <label style="font-size: 0.8rem; margin-bottom: 5px;">Qual sua categoria ou empresa?</label>
+        <select name="categoria" required style="padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+            <option value="entregador">Entregador / Motorista App</option>
+            <option value="logistica">Logística / Armazém</option>
+            <option value="industria">Indústria / Fábrica</option>
+            <option value="servicos">Serviços / Limpeza / Segurança</option>
+            <option value="estudante">Estudante / Desempregado</option>
+        </select>
+
+        <label style="font-size: 0.8rem; margin-bottom: 5px;">WhatsApp ou Telegram (com DDD)</label>
+        <input type="tel" name="contato" placeholder="(00) 99999-0000" required style="padding: 10px; margin-bottom: 15px; border-radius: 4px; border: none;">
+
+        <label style="font-size: 0.8rem; margin-bottom: 5px;">Em qual região da cidade você atua?</label>
+        <input type="text" name="localizacao" placeholder="Ex: Zona Norte / Terminal Central" required style="padding: 10px; margin-bottom: 15px; border-radius: 4px; border: none;">
+
+        <label style="font-size: 0.8rem; margin-bottom: 5px;">Você estaria disposto a distribuir o Iskra na sua área?</label>
+        <div style="font-size: 0.9rem; margin-bottom: 20px;">
+            <input type="radio" name="disposto" value="sim" id="sim"> <label for="sim">Sim</label>
+            <input type="radio" name="disposto" value="no-futuro" id="no-futuro" style="margin-left: 15px;"> <label for="no-futuro">Quero conhecer primeiro</label>
+        </div>
+
+        <button type="submit" style="background-color: var(--vermelho); color: white; border: none; padding: 15px; font-weight: bold; text-transform: uppercase; border-radius: 4px; cursor: pointer;">
+            Enviar para o Comitê Central
+        </button>
+    </form>
+</section>
+    </div>
 
     <footer>
         <p>Distribuído de forma descentralizada. <br> "A organização é o fuzil da classe trabalhadora."</p>
