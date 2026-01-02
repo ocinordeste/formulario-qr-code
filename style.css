@@ -6,6 +6,13 @@
     --cinza: #f4f4f4;
 }
 
+#contato {
+    background-color: #222; /* Mesma cor do fundo para sumir a caixa ou #222 para destacar */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px dashed var(--vermelho);
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--preto);
