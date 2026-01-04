@@ -6,6 +6,10 @@
     --cinza: #f4f4f4;
 }
 
+p {
+    text-align: justify;
+}
+
 .container img {
     max-width: 100%;
     height: auto;
